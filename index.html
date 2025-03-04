@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHS375JB</title>
+    
+    <style>
+        /* Style for centering the content */
+        body {
+            display: flex;
+            flex-direction: column; /* Allow for vertical stacking */
+            justify-content: center; /* Centers the content horizontally */
+            align-items: center; /* Centers the content vertically */
+            height: 50vh; /* Full viewport height */
+            margin: 0;
+            background-color: #f4f4f4; /* Optional background color */
+        }
+
+        h1 {
+            color: #333; /* Color for the heading */
+            font-size: 2.5rem; /* Adjust size of the heading */
+            margin-bottom: 3 m  0px; /* Adds space between the heading and buttons */
+        }
+
+        /* Flex container for buttons */
+        .button-container {
+            display: flex;
+            justify-content: center; /* Aligns buttons in a row */
+            gap: 20px; /* Adds space between the buttons */
+        }
+
+        /* Basic styling for buttons */
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .staff-statement {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .none-teaching {
+            background-color: #2196F3;
+            color: white;
+        }
+
+        .vacancy-6277 {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .vacancy-6073 {
+            background-color: #ff9800;
+            color: white;
+        }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Heading -->
+    <h1><marquee>Welcome to GHS 375 JB</marquee></h1>
+
+    <!-- Container for buttons -->
+    <div class="button-container">
+        <button class="btn staff-statement" onclick="location.href='newstaff.html'">Staff Statement</button>
+        <button class="btn none-teaching" onclick="location.href='nonteaching staff.html'">None Teaching Staff</button>
+        <button class="btn vacancy-6277" onclick="location.href='vacancy6277.html'">Vacancy Position 6277</button>
+        <button class="btn vacancy-6073" onclick="location.href='vacancy6073.html'">Vacancy Position 6073</button>
+    </div>
+
+</body>
+</html>
